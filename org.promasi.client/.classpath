@@ -9,8 +9,8 @@
 	<classpathentry kind="lib" path="Libs/Nebula/org.eclipse.nebula.widgets.ganttchart-2.0-NIGHTLY.jar"/>
 	<classpathentry kind="lib" path="Libs/SWT/calendarcombo-1.0.0.jar"/>
 	<classpathentry kind="lib" path="Libs/SWT/cdatetime-0.14.0.jar"/>
-	<classpathentry kind="lib" path="Libs/SWT/swt-grouplayout.jar"/>
 	<classpathentry kind="lib" path="Libs/SWT/cwt-0.9.0.jar"/>
 	<classpathentry kind="lib" path="Libs/SWT/swt_linux.jar"/>
+	<classpathentry kind="lib" path="Libs/SWT/swt-grouplayout.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

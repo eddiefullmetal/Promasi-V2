@@ -19,8 +19,8 @@ public interface IEquation {
 	 * @return
 	 * @throws NullArgumentException
 	 * @throws IllegalArgumentException
-	 * @throws CalculationExeption
+	 * @throws CalculationException
 	 */
-	public Double calculateEquation(Map<String, Double> systemValues)throws NullArgumentException, IllegalArgumentException,CalculationExeption;
+	public Double calculateEquation(Map<String, Double> systemValues)throws NullArgumentException, IllegalArgumentException,CalculationException;
 	public ISerializableEquation getSerializableEquation()throws SerializationException;
 }

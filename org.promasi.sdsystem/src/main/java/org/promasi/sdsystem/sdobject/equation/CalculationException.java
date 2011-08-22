@@ -7,7 +7,7 @@ package org.promasi.sdsystem.sdobject.equation;
  * @author m1cRo
  *
  */
-public class CalculationExeption extends Exception {
+public class CalculationException extends Exception {
 	/**
 	 * 
 	 */
@@ -17,7 +17,7 @@ public class CalculationExeption extends Exception {
 	 * 
 	 * @param message
 	 */
-	public CalculationExeption(final String message)
+	public CalculationException(final String message)
 	{
 		super(message);
 	}

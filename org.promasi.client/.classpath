@@ -4,11 +4,5 @@
 	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER"/>
-	<classpathentry kind="lib" path="Libs/Nebula/org.eclipse.nebula.widgets.ganttchart-2.0-NIGHTLY.jar"/>
-	<classpathentry kind="lib" path="Libs/SWT/calendarcombo-1.0.0.jar"/>
-	<classpathentry kind="lib" path="Libs/SWT/cdatetime-0.14.0.jar"/>
-	<classpathentry kind="lib" path="Libs/SWT/cwt-0.9.0.jar"/>
-	<classpathentry kind="lib" path="Libs/SWT/swt_linux.jar"/>
-	<classpathentry kind="lib" path="Libs/SWT/swt-grouplayout.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

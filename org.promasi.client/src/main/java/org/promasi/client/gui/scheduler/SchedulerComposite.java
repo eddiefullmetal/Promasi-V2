@@ -9,25 +9,25 @@ import java.util.Vector;
 
 import org.eclipse.nebula.widgets.ganttchart.GanttChart;
 import org.eclipse.nebula.widgets.ganttchart.GanttEvent;
+import org.eclipse.swt.SWT;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.graphics.Rectangle;
 import org.eclipse.swt.layout.FillLayout;
 import org.eclipse.swt.layout.GridData;
-import org.eclipse.swt.layout.grouplayout.GroupLayout;
 import org.eclipse.swt.widgets.Button;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Decorations;
 import org.eclipse.swt.widgets.List;
+import org.eclipse.wb.swt.layout.grouplayout.GroupLayout;
+import org.eclipse.wb.swt.layout.grouplayout.LayoutStyle;
+import org.joda.time.DateTime;
 import org.promasi.client.gui.company.Project;
 import org.promasi.game.IGame;
 import org.promasi.game.company.Company;
 import org.promasi.game.company.SerializableEmployeeTask;
 import org.promasi.utilities.exceptions.NullArgumentException;
 import org.promasi.utilities.serialization.SerializationException;
-import org.eclipse.swt.SWT;
-import org.joda.time.DateTime;
-import org.eclipse.swt.layout.grouplayout.LayoutStyle;
 
 public class SchedulerComposite extends Composite implements ITaskDialogListener{
 

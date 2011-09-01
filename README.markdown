@@ -31,6 +31,11 @@ The following libraries must be installed
 
 	mvn install:install-file -Dfile=[path to swt.jar] -DgroupId=org.eclipse -DartifactId=swt -Dversion=3.7 -Dpackaging=jar
 	
-*	[SWT GroupLayout](??)
+*	SWT GroupLayout: Install the WindowBuilderPro eclipse plugin and then go to the eclipse plugin folder and take the org.eclipse.wb.swt.layout.grouplayout_1.1.0.r37x201107161520
 
-	mvn install:install-file -Dfile=[path to jar] -DgroupId=org.eclipse.swt -DartifactId=grouplayout -Dversion=3.7 -Dpackaging=jar
+	mvn install:install-file -Dfile=[path to jar] -DgroupId=org.eclipse.swt -DartifactId=grouplayout -Dversion=1.1.0 -Dpackaging=jar
+	
+*	The GroupLayout has a dependency in the swt baseline. The org.eclipse.wb.swt.widgets.baseline_1.1.0.r37x201107161502.jar must also be installed in the repo
+
+	 mvn install:install-file -Dfile=[path to jar] -DgroupId=org.eclipse.swt -DartifactId=baseline -Dversion=1.1.0 -Dpackaging=jar
+	 
